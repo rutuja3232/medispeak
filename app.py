@@ -97,8 +97,8 @@ def combine_question_with_medical_info(user_question, medical_info):
 
 def main():
     st.set_page_config(page_title='MedicalSpeak', page_icon='dockspeak_.png')
-    st.header("DocSpeak")
-    st.markdown("#### Chat with PDFs")
+    st.header("MediChat AI")
+    st.markdown("#### Your PDF Doctor is In")
     st.warning('Be respectful while asking questions')
     
     # Sidebar inputs
